@@ -6,10 +6,17 @@ This repository contains a multi-class classification project using the **Wine Q
 
 ## 📌 Project Overview
 
-- **Dataset**: [Wine Quality – Kaggle]([https://archive.ics.uci.edu/ml/datasets/wine+quality](https://www.kaggle.com/datasets/yasserh/wine-quality-dataset))
+- **Dataset**: [Wine Quality – Kaggle](https://www.kaggle.com/datasets/yasserh/wine-quality-dataset)
 - **Data Size**: 1143 samples, 11 features + 1 target (`quality`)
 - **Target**: Multi-class classification (`quality` ∈ [3, 4, 5, 6, 7, 8])
 - **Problem**: Imbalanced class distribution with majority in class 5 and 6
+
+---
+
+## 🛠️ Tools & Libraries
+
+- **Python**: `pandas`, `numpy`, `scikit-learn`, `keras`, `seaborn`, `matplotlib`
+- **RapidMiner**: Parallel implementation of ANN for evaluation consistency
 
 ---
 
@@ -111,8 +118,5 @@ To validate model robustness and reproducibility, we also implemented the Artifi
 
 ---
 
-## 🧰 Tools & Libraries
-
-- **Python**: `pandas`, `numpy`, `scikit-learn`, `keras`, `seaborn`, `matplotlib`
-- **RapidMiner**: Parallel implementation of ANN for evaluation consistency
-
+## 📎 License
+This project is for academic and learning purposes. Dataset credit to [M Yasser H](https://www.kaggle.com/yasserh).

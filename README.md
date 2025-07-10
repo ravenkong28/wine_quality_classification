@@ -64,7 +64,7 @@ Each model was evaluated under:
 To validate model robustness and reproducibility, we also implemented the Artificial Neural Network (ANN) using **RapidMiner**. The same dataset (WineQT.csv) and modeling objective were applied.
 
 ### 🧭 Workflow in RapidMiner:
-
+![RapidMiner Workflow](images/rapidminer_1.png)
 1. **Read CSV**  
    The dataset was loaded using the `Read CSV` operator. The `WineQT.csv` file was imported.
 
@@ -95,7 +95,7 @@ To validate model robustness and reproducibility, we also implemented the Artifi
 ---
 
 ### 📊 Evaluation Results (ANN in RapidMiner):
-
+![RapidMiner Results](images/rapidminer_1.1.png)
 - **Accuracy**: 55.02%
 - **Highest Precision & Recall**: Class `5` (66.34%) and Class `6` (51.55%)
 - **Minority Classes (3, 4, 8)**: Precision and recall = 0%
@@ -115,8 +115,4 @@ To validate model robustness and reproducibility, we also implemented the Artifi
 
 - **Python**: `pandas`, `numpy`, `scikit-learn`, `keras`, `seaborn`, `matplotlib`
 - **RapidMiner**: Parallel implementation of ANN for evaluation consistency
-
----
-
-## 📁 File Structure
 
